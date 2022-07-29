@@ -1,0 +1,32 @@
+.timer-btn {
+    display: inline-block;
+    padding: 20px 30px;
+    
+    border: 0px;
+    color:#fff;
+    font-size: 30px;
+}
+
+[data-action-start] {
+    background-color: rgb(56, 202, 49);
+    margin-right: 30px;
+}
+
+.timer-btn:hover {
+    box-shadow: 0px 6px 4px rgba(107, 107, 107, 0.4);
+}
+
+[data-action-stop] {
+    background-color: rgb(244, 67, 19);
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+}
+
+.js-clockface {
+    font-family:monospace ;
+    font-size: 70px;
+    text-align: center;
+}
